@@ -9,7 +9,7 @@
  *   Rating: 2
  */
 int allOddBits(int x) {
-#error TODO: Return 1 if every odd-numbered bit of x is set.
+	return !((x|(85+(85<<8)+(85<<16)+(85<<24)))+1);
 }
 
 int main(void) {

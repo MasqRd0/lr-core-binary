@@ -9,7 +9,7 @@
  *   Rating: 3
  */
 int isAsciiDigit(int x) {
-#error TODO: Return 1 when x is between 0x30 and 0x39 inclusive.
+return !(x^48)||!(x^49)||!(x^50)||!(x^51)||!(x^52)||!(x^53)||!(x^54)||!(x^55)||!(x^56)||!(x^57);
 }
 
 int main(void) {
